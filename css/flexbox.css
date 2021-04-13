@@ -33,5 +33,25 @@
   /* flex-direction: column;
   flex-wrap: wrap; */
   flex-flow: column wrap;
-  height: 245px;
+  height: 255px;
+}
+
+.conteudoPrincipal-cursos {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+
+.conteudoPrincipal-cursos-link {
+  width: 23%;
+  margin: 1%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n) {
+  margin-right: 0;
+
+}
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+  margin-right: 0;
+
 }
